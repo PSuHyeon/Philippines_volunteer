@@ -21,6 +21,9 @@ This repository contains resources, codes, and materials for the 5-day programmi
 
 ### **Day 1**: Introduction to Python Programming  
 Instructor: 조백균  
+Slide URL: 
+- https://docs.google.com/presentation/d/1gfX_-0oKwKs3h0vUkQdn4zE6a1HnncqeODOJSB9z1F0/edit?usp=sharing
+
 **Topics Covered:**
 - Basic Python concepts:
   1. Variables and Data Types
@@ -33,6 +36,9 @@ Instructor: 조백균
 
 ### **Day 2**: Control Structures in Programming  
 Instructor: 김종우  
+Slide URL: 
+- https://docs.google.com/presentation/d/1erzJvyKVsjJKmmW55KPdcygWEkkxyhp88WkJaHMUhE0/edit?usp=sharing
+
 **Topics Covered:**
 - Python control structures:
   1. Conditional statements
@@ -44,6 +50,9 @@ Instructor: 김종우
 
 ### **Day 3**: Functions and Modules  
 Instructor: 윤채원  
+Slide URL: 
+- https://docs.google.com/presentation/d/1wUbk-uRRKv2-oZfgtILSK7ANk5bslz4G_Rpl-BPKAZA/edit?usp=sharing
+
 **Topics Covered:**
 - Understanding functions:
   1. Structure of a function
@@ -56,6 +65,9 @@ Instructor: 윤채원
 
 ### **Day 4**: Pygame and Basic Game Development  
 Instructor: 박수현  
+Slide URL: 
+- https://docs.google.com/presentation/d/1qgT8ttyvwqjv5ZYLNT0AscAPKklhefXhdpCp6zZ_udY/edit?usp=sharing
+
 **Topics Covered:**
 - Introduction to the Pygame library
 - Setting up and running a Pygame environment
