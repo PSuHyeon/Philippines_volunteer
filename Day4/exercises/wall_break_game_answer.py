@@ -43,10 +43,7 @@ bricks = []
 # TODO: make blocks using bricks.append function and pygame.Rect function
 for row in range(brick_rows):
     for col in range(brick_cols):  
-
-        # Your Code Starts from here (erase pass and write your code)
-        
-        pass
+        bricks.append(pygame.Rect(col * brick_width, row * brick_height, brick_width - 5, brick_height - 5))
 
 
 # 점수 변수 (Score variables)
@@ -84,10 +81,7 @@ while True:
 
 # TODO: Paddle Ball colliding effect; when ball collide with paddle, ball's y direction speed changes. 
     if paddle.colliderect(ball_x - ball_radius, ball_y - ball_radius, ball_radius * 2, ball_radius * 2):
-
-        # Your Code Starts from here (erase pass and write your code)
-
-        pass
+        ball_speed_y = -ball_speed_y
 
 # TODO: Brick Ball colliding effect; 
     # Task1: remove collided brick
@@ -95,9 +89,9 @@ while True:
     # Task3: increase score by 10
     for brick in bricks[:]:
         if brick.colliderect(ball_x - ball_radius, ball_y - ball_radius, ball_radius * 2, ball_radius * 2):
-            
-            # Your Code Starts from here
-
+            bricks.remove(brick)
+            ball_speed_y = -ball_speed_y
+            score += 10
             break
 
     # 공 바닥에 닿았을 때 게임 오버
