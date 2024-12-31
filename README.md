@@ -22,7 +22,7 @@ This repository contains resources, codes, and materials for the 5-day programmi
 ### **Day 1**: Introduction to Python Programming  
 Instructor: 조백균  
 Slide URL: 
-- https://docs.google.com/presentation/d/1gfX_-0oKwKs3h0vUkQdn4zE6a1HnncqeODOJSB9z1F0/edit?usp=sharing
+- https://docs.google.com/presentation/d/1nJCKgYkpIm9JYwxNuNMuU9QxcneduifiCphC38rtfx0/edit#slide=id.g322257b7d6c_0_157
 
 **Topics Covered:**
 - Basic Python concepts:
