@@ -20,29 +20,29 @@ while i < a:
 print("\nReverse Right Triangle (for loop)")
 a = 8
 for i in range(a):
-    print(" " * (a - (i+1)), end="")
-    print("*" * (i+1))
+    print(" " * , end="")
+    print("*" * )
 
 print("\nReverse Right Triangle (while loop)")
 a = 8
 i = 0
 while i < a:
-    print(" " * (a - (i+1)), end="")
-    print("*" * (i+1))
+    print(" " * , end="")
+    print("*" * )
     i = i + 1
 
 print("\nRegular Triangle (for loop)")
 a = 8
 for i in range(a):
-    print(" " * ((a - 1) - i), end = "")
-    print("*" * (2 * i + 1))
+    print(" " * , end = "")
+    print("*" * )
 
 print("\nRegular Triangle (while loop)")
 a = 8
 i = 0
 while i < a:
-    print(" " * ((a - 1) - i), end = "")
-    print("*" * (2 * i + 1))
+    print(" " * , end = "")
+    print("*" * )
     i = i + 1
 
 print("\nDiamond (1) (for loop)")
